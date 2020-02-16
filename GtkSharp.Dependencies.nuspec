@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>GtkSharp.Dependencies</id>
+    <version>1.1.0</version>
+    <description>This package contains GTK+ dependancies to be used by Gtk# on Windows. Gtk# is a .NET language binding for the GTK+ toolkit and assorted GNOME libraries.</description>
+    <authors>Xpl0itR</authors>
+    <license type="expression">LGPL-2.1-only</license>
+    <iconUrl>https://raw.githubusercontent.com/GtkSharp/GtkSharp/develop/Source/Libs/GtkSharp/Icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>gtk gtksharp dependancies windows .net</tags>
+    <contentFiles>
+      <files include="cs\netstandard2.0\**" copyToOutput="true" buildAction="None" flatten="false"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="deps\bin\**" target="contentFiles\cs\netstandard2.0\bin" />
+    <file src="deps\etc\**" target="contentFiles\cs\netstandard2.0\etc" />
+    <file src="deps\lib\**" target="contentFiles\cs\netstandard2.0\lib" />
+    <file src="deps\share\**" target="contentFiles\cs\netstandard2.0\share" />
+  </files>
+</package>
