@@ -3494,12 +3494,14 @@ tooltip {
   text-shadow: none; }
   tooltip.background {
     background-color: #292f34;
-    background-clip: padding-box; }
+    background-clip: padding-box;
+    box-shadow: none; }
   tooltip.window-frame.csd {
     background-color: transparent;
     box-shadow: none; }
   tooltip decoration {
-    background-color: transparent; }
+    background-color: transparent;
+    box-shadow: none; }
 
 tooltip * {
   padding: 0px;
